@@ -11,3 +11,15 @@
 5. Console.log the result.
 
 */
+const firstNUM=parseInt(prompt("Enter fist Number"))
+const operator=prompt("Enter operator")
+const secondNUM=parseInt(prompt("Enter second Number"))
+        if(operator==='+'){
+         console.log(firstNUM+secondNUM)}
+         else if(operator==='-'){
+                console.log(firstNUM-secondNUM)}
+
+                else if(operator==='*'){
+                    console.log(firstNUM*secondNUM)}
+                    else if(operator==='/'){
+                        console.log(firstNUM/secondNUM)}
